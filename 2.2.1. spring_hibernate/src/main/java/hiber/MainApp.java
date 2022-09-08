@@ -39,6 +39,9 @@ public class MainApp {
             System.out.println();
         }
 
+        User user = userService.getUser(new Car("BMW", 7));
+        System.out.println(user);
+
         context.close();
     }
 }
