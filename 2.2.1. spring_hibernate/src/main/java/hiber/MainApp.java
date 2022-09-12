@@ -43,8 +43,8 @@ public class MainApp {
             System.out.println();
         }
 
-        System.out.println(userService.getUser(new Car("BMW", 7)));
-        System.out.println(userService.getUser(new Car("BMW", 5)));
+        System.out.println(userService.getUser("BMW", 7));
+        System.out.println(userService.getUser("BMW", 5));
 
         context.close();
     }
